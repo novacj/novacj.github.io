@@ -1,0 +1,97 @@
+header {
+    background-image: url("AdobeStock_265134814.jpeg");
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+
+header h1 {
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+h1:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.125);
+}
+
+header nav {
+    padding: 20px;
+}
+
+.button {
+    border: 1px solid black;
+    color: black;
+    /* color: lightcoral; */
+}
+
+nav a:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+}
+
+
+body {
+    background-color: whitesmoke;
+    margin: 20px;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+main h2 {
+    text-align: center;
+    color: black;
+}
+
+h3 {
+    margin-top: 150px;
+    text-align: center;
+}
+
+main h4 {
+    text-align: center;
+}
+
+main h4:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+    /* color:royalblue; */
+}
+
+main h5 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.row {
+    padding-top: 50px;
+}
+
+main p:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+}
+
+main p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    background-color: gainsboro;
+}
+
+footer .button {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
