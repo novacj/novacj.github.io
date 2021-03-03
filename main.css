@@ -1,6 +1,6 @@
 header {
     background-image: url("AdobeStock_265134814.jpeg");
-    height: 800px;
+    height: 1000px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,7 +21,7 @@ h1:hover {
 }
 
 header nav {
-    padding: 20px;
+    padding: 35px;
 }
 
 .button {
@@ -35,11 +35,8 @@ nav a:hover {
     transform: scale(1.1);
 }
 
-
 body {
     background-color: whitesmoke;
-    margin: 20px;
-    padding: 20px;
 }
 
 main {
@@ -49,30 +46,39 @@ main {
 main h2 {
     text-align: center;
     color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-h3 {
-    margin-top: 150px;
+main h2:hover {
+    text-decoration: underline #BF0637;
+}
+
+div h3 {
+    margin-top: 25em;
     text-align: center;
+    font-family: 'Architects Daughter', cursive;
+}
+
+h3:hover {
+    text-decoration: underline #F2B705;
 }
 
 main h4 {
     text-align: center;
+    margin-top: 25em;
 }
 
 main h4:hover {
-    transition: all .2s ease-in-out;
-    transform: scale(1.1);
-    /* color:royalblue; */
+    text-decoration: underline #023373;
 }
 
 main h5 {
     text-align: center;
-    margin-bottom: 50px;
 }
 
-.row {
-    padding-top: 50px;
+.row h4 {
+    text-decoration: none;
 }
 
 main p:hover {
@@ -84,6 +90,19 @@ main p {
     text-align: center;
     font-size: 15px;
     font-weight: bold;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+}
+
+h6 {
+    text-align: center;
+}
+
+.row h6 {
+    font-size: 25px;
 }
 
 footer {
